@@ -7,6 +7,7 @@
 > ✏️ **_Brian Yu_** teaches this course.
 
 **⭐️ Course Contents**
+
 -[x] Introduction
 -[x] Lecture 0: HTML, CSS
 -[x] Lecture 1: Git
