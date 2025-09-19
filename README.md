@@ -2,7 +2,11 @@
 
 > This web programming course from Harvard University picks up where CS50x leaves off. It dives more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. You will learn how to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku.
 
-⭐️ Course Contents
+[💻 Slides, source code, and more at](https://cs50.harvard.edu/web/)
+
+> ✏️ **_Brian Yu_** teaches this course.
+
+**⭐️ Course Contents**
 -[x] Introduction
 -[x] Lecture 0: HTML, CSS
 -[x] Lecture 1: Git
