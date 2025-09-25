@@ -10,6 +10,43 @@
             color:springgreen; 
             text-align:centre;
         }*/
+
+        #grid{
+          display: grid;
+          padding: 20px;
+          gap: 10px;
+          /*grid-column-gap: 20px;
+          grid-row-gap: 10px;*/
+          background-color: lightgrey;
+          grid-template-columns: 200px 200px auto;
+        }
+
+        .grid-item{
+          background-color: white;
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+        }
+
+        #container{
+          display: flex;
+          flex-wrap:wrap; 
+        }
+        
+        #container img{
+          margin: 10px;
+          border-radius: 8px;
+        }
+
+        #container > div{
+          background-color: springgreen;
+          font-size: 1rem;
+          margin: 20px;
+          padding: 20px;
+          width: 200px;
+          border-radius: .2rem;
+        }
+
         #foo {
           color: blue;
         }
@@ -37,12 +74,27 @@
           border: none;
         }
 
+        @media (min-width: 600px){
+          body{
+            background-color: purple;
+          }
+        }
+
+        @media (max-width: 599px){
+          body{
+            background-color: lightblue;
+          }
+        }
+
     </style>
   </head>
   <body>
+    
     <h1 id="foo">Welcome to My Web Programming Learning</h1>
     <!-- <h2 style="color:springgreen; text-align:centre;">I'll learn a lot</h2> -->
     <h2>I'll learn a lot</h2>
+    
+    <div id="container">
     <ul>
       <li><a href="https:://python.org">Python</a></li>
       <li><a href="https:://javascript.com">JavaScript</a></li>
@@ -63,7 +115,37 @@
     <img src="https://picsum.photos/id/237/200/300" alt="Cute black dog staring at the camera"/>
     
     <a href="https://cs50.harvard.edu/web/">Slides of the CS50 Web Programming Course</a>
-    
+
+    <div>1. This is sample div</div>
+    <div>2. This is sample div</div>
+    <div>3. This is sample div</div>
+    <div>4. This is sample div</div>
+    <div>5. This is sample div</div>
+    <div>6. This is sample div</div>
+    <div>7. This is sample div</div>
+    <div>8. This is sample div</div>
+    <div>9. This is sample div</div>
+    <div>10. This is sample div</div>
+    <div>11. This is sample div</div>
+    <div>12. This is sample div</div>
+
+    </div>
+
+    <div id="grid">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+      <div class="grid-item">10</div>
+      <div class="grid-item">11</div>
+      <div class="grid-item">12</div>
+    </div>
+
     <table>
       <thead>
         <tr>
