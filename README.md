@@ -82,3 +82,13 @@
 > 
 > - Media Features: **height**, **width**, **orientation**, ...
 
+
+### CSS Variables  -  Sass
+
+- Install Sass on PC
+- Use the CSS Variables using Sass
+- Compile Sass into CSS
+- `sass variables.scss:variables.css`
+- Automate the Sass compilation
+- `sass --watch sass variables.scss:variables.css`
+- Sass allows **Nesting** of styles.
